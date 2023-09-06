@@ -14,6 +14,7 @@ cd Project-Pinterest
 
 # Corre los siguientes comandos
 npm install # Esto creara las carpetas de node_modules y package-lock.json
+
 npm start # Esto comenzara el proyecto
 
 

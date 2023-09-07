@@ -17,6 +17,8 @@ npm install # Esto creara las carpetas de node_modules y package-lock.json
 
 npm start # Esto comenzara el proyecto
 
+npm run dev para abrir localmente
+
 # Instalar
 npm install react-scripts@latest
 

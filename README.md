@@ -17,4 +17,9 @@ npm install # Esto creara las carpetas de node_modules y package-lock.json
 
 npm start # Esto comenzara el proyecto
 
+#Instalar
+npm install react-scripts@latest
 
+npm install styled-components
+
+npm install react-router-dom localforage match-sorter sort-by

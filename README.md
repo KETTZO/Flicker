@@ -17,7 +17,7 @@ npm install # Esto creara las carpetas de node_modules y package-lock.json
 
 npm start # Esto comenzara el proyecto
 
-#Instalar
+# Instalar
 npm install react-scripts@latest
 
 npm install styled-components

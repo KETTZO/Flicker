@@ -25,3 +25,7 @@ npm install react-scripts@latest
 npm install styled-components
 
 npm install react-router-dom localforage match-sorter sort-by
+
+
+# Extensiones
+Simple React snippets

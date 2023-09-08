@@ -7,4 +7,15 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: "Kanit", sans-serif;
     }
+
+    body{
+  
+        height:100vh;
+    }
+
+    // div{
+    //     box-sizing: border-box;
+    //     margin: 0; 
+    //     padding:0;
+    // }
 `;

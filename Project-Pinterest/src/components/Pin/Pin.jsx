@@ -30,7 +30,6 @@ function check_size(event){
     image.style.opacity = 1;
 }
 
-
 function pin(props) {
     // const[pinImage, setPinImage] = useState();
   return (

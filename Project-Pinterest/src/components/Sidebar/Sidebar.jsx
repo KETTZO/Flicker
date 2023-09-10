@@ -9,6 +9,7 @@ import {
 } from './SideBarElements';
 
 function Sidebar({ isOpen, toggle }) {
+	
 	return (
 		<SidebarContainer isOpen={isOpen}>
 			<Icon onClick={toggle}>

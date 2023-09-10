@@ -1,12 +1,6 @@
-/* .card{
-    width: 252px;
-    height:512px;
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden;
-
-    background-color: rgb(29, 29, 29);
-} */
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
 .pin_title{
     width:0;
@@ -75,6 +69,7 @@
 
 .pin_modal .modal_head .save_card{
     margin-right: 20px;
+    margin-top: 2rem;
     width: 53px;
     height: 40px;
     border-radius: 22px;
@@ -87,7 +82,7 @@
     font-weight: 700;
 
     color: #f0f0f0;
-    background-color: red;
+    background-color: #32a59f;
     cursor: pointer;
 }
 

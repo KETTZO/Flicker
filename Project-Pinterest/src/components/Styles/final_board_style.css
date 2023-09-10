@@ -1,9 +1,14 @@
+
+
+
+
 .navegation_bar{
-    width:100%;
+    /* width:100%;
     height:10%;
     position:fixed;
-    top:0;
-
+    top:0; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .pint_mock_icon_container{
@@ -17,7 +22,7 @@
     align-items: center;
     flex-shrink: 0;
 
-    background-color: #f0f0f0;
+    background-color: #efb8f2;
     cursor: pointer;
 }
 
@@ -27,6 +32,7 @@
     position: relative;
     top: 10%;
     left:90%;
+    background-color: #efb8f2;
     transition-duration: 0.3s;
 }
 
@@ -34,11 +40,12 @@
     transform: scale(1.1);
     
 
-    background-color:#767676;
+    background-color:#87c9c6;
 }
 
 .pin_container{
     margin:0;
+    margin-left: 7rem;
     padding: 0;
     width: 80vw;
     display: grid;

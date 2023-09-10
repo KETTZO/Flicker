@@ -33,7 +33,7 @@ class FinalBoard extends React.Component {
   render() {
    
     return (
-      <div>
+      <div className="containerwrap">
         <div className="navegation_bar">
             <div onClick={() => this.setState({show_modal:true})}
              className="pint_mock_icon_container add_pin">

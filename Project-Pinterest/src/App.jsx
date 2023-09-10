@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 // import Pin from './components/Pin/Pin'; 
 // import Modal from './components/Pin/Modal'; 
 // import ModalAndPin from './components/Pin/ModalAndPin'; 
-import FinalBoard from './components/Pin/ModalAndPin'; 
+import FinalBoard from './components/Pin/FinalBoard'; 
 
 
 function App() {

@@ -19,7 +19,7 @@ function Footer() {
 			<FooterWrap>
 				<SocialMedia>
 					<SocialMediaWrap>
-						<SocialLogo to='/'>ZEEZEE
+						<SocialLogo to='/'>FLICKER
 						</SocialLogo>
 						<SocialText>
 							<SocialLink

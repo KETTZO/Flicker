@@ -113,14 +113,16 @@ export default function SignInSide() {
                 control={<Checkbox value="remember" color="primary" />}
                 label="Remember me"
               />
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2, backgroundColor: '#5e4955', color: '#fff' }}
-              >
-                Sign In
-              </Button>
+              <RouterLink to='/profile'>
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  sx={{ mt: 3, mb: 2, backgroundColor: '#5e4955', color: '#fff' }}
+                >
+                  Sign In
+                </Button>
+              </RouterLink>
               <Grid container>
                 <Grid item xs>
                   <Link href="#" variant="body2">

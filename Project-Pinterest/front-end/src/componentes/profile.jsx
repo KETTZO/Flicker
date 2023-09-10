@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './profile.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import miImagen from './../assets/img.png';
+import './profile.css'
+
 
 function Profile() {
   // Estado para almacenar la información del perfil
@@ -28,7 +29,7 @@ function Profile() {
 
 
   return (
-      <div className="card" >
+      <div className="card" style={{backgroundColor: '#313131', color: '#c99da2'}}>
         <h1>Mi Perfil</h1>
         <div className="profile-picture">
           <img src={miImagen} className="img-thumbnail" alt="Foto de perfil" />

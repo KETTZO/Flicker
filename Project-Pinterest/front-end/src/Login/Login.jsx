@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from '../assets/flicker.png'
-import '../App'
+import {Link as RouterLink } from 'react-router-dom';
+import './Login.css'
 
 export function Login({setUser}){
 
@@ -80,9 +81,11 @@ export function Login({setUser}){
             {error && <p className='msgError'>Verifique usuario y/o contraseña</p>}
           </div>
           <br />
-          <button onClick={loginUser}>Continuar</button>
+          <RouterLink to='/profile'>
+            <button onClick={loginUser}>Continuar</button>
+          </RouterLink>
           <br />
-          <p>¿Aún no tienes una cuenta?</p>
+          <RouterLink to='/signup'>¿Aún no tienes una cuenta?</RouterLink>
           
         </form>
       </>

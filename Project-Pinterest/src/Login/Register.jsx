@@ -136,15 +136,16 @@ export default function SignInSide() {
                 id="password"
                 autoComplete="current-password"
               />
-
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2, backgroundColor: '#5e4955', color: '#fff' }}
-              >
-                Registrar
-              </Button>
+              <RouterLink to="/" >
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  sx={{ mt: 3, mb: 2, backgroundColor: '#5e4955', color: '#fff' }}
+                >
+                  Registrar
+                </Button>
+              </RouterLink>
               <Grid container>
                 <Grid item xs>
                   <Link href="#" variant="body2">

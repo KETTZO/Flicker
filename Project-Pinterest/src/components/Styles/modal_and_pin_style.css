@@ -1,0 +1,38 @@
+.navegation_bar{
+    width:100%;
+    height:10%;
+    position:fixed;
+    top:0;
+
+}
+
+.pint_mock_icon_container{
+  
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.navegation_bar .pint_mock_icon_container{
+    width:60px;
+    height:60px;
+    position: relative;
+    top: 10%;
+    left:90%;
+    transition-duration: 0.3s;
+}
+
+.navegation_bar .pint_mock_icon_container:hover{
+    transform: scale(1.1);
+    
+
+    background-color:#767676;
+}

@@ -128,7 +128,7 @@ export default function SignInSide() {
                   </Link>
                 </Grid>
                 <Grid item>
-                <RouterLink href="/register" variant="body2">
+                <RouterLink to="/signup" variant="body2">
                   {"No tienes cuenta? Registrate aqui mismo"}
                 </RouterLink>
 

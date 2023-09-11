@@ -57,37 +57,41 @@ export function Login({setUser}){
     }
   
     return (
-      <>
-        <div className="loginImage">
-          <img src={logo} alt="" />
+    <div className="cardlogin">
+      
+        <div className="loginImage ">
+          <img className="image-align" src={logo} alt="" />
           <br />
-          <h1>Bienvenido</h1>
-          <h3>Ingresa para continuar</h3>
+          <div className="text-align">
+            <h1 className="">Bienvenido</h1>
+            <h3 className="">Ingresa para continuar</h3>
+          </div>
+          
         </div>
         <form className='loginForm'
           onSubmit={handleSubmit}
         >
           <h2>Inicio de sesión</h2>
           <div className='inputs'>
-            <input type="text" className='' placeholder='correo electrónico'
+            <input type="text" className='' placeholder='Correo electrónico'
               value={nombre}
               onChange={e => setNombre(e.target.value)}
             />
             <br />
-            <input type="password" className='' placeholder='contraseña'
+            <input type="password" className='' placeholder='Contraseña'
               value={contra}
               onChange={e => setContra(e.target.value)}
             />
             {error && <p className='msgError'>Verifique usuario y/o contraseña</p>}
           </div>
           <br />
-          <RouterLink to='/profile'>
+          <RouterLink to='/flicker'>
             <button onClick={loginUser}>Continuar</button>
           </RouterLink>
           <br />
           <RouterLink to='/signup'>¿Aún no tienes una cuenta?</RouterLink>
           
         </form>
-      </>
+      </div>
     )
 }

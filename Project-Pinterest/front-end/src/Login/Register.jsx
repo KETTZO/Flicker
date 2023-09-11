@@ -5,12 +5,15 @@ import './Login.css'
 
 export function Register(){
     return (
-      <>
-        <div className="loginImage">
-          <img src={logo} alt="" />
+      <div className="cardlogin">
+        <div className="loginImage ">
+          <img className="image-align" src={logo} alt="" />
           <br />
-          <h1>Bienvenido</h1>
-          <h3>Registrate para continuar</h3>
+          <div className="text-align">
+            <h1 className="">Bienvenido</h1>
+            <h3 className="">Registrar para continuar</h3>
+          </div>
+          
         </div>
         <form className='loginForm'
         >
@@ -22,9 +25,9 @@ export function Register(){
             <br />
             <input type="text" className='' placeholder='Usuario'/>
             <br />
-            <input type="text" className='' placeholder='correo electrónico'/>
+            <input type="text" className='' placeholder='Correo electrónico'/>
             <br />
-            <input type="password" className='' placeholder='contraseña'/>
+            <input type="password" className='' placeholder='Contraseña'/>
           </div>
 
           <RouterLink to='/'>
@@ -34,6 +37,6 @@ export function Register(){
           <RouterLink to='/'>¿Ya tienes cuenta?</RouterLink>
           
         </form>
-      </>
+      </div>
     )
 }

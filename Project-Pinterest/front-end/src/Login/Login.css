@@ -1,14 +1,19 @@
-body{
-  background: linear-gradient(45deg, #9b789c, #257974); 
+.login{
+  
+  background: linear-gradient(45deg, #eee3ee, #e0e0e0); 
   font-family: 'Kanit', sans-serif;
 }
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+.cardlogin {
+  max-width: 60%;
+  margin:  auto !important;
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
   text-align: center;
   display: flex;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} 
 
 .logo {
   height: 6em;
@@ -67,6 +72,14 @@ body{
   border-bottom-left-radius: 20px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.text-align{
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.image-align{
+  margin-top: 10%; margin-bottom: 40%;
 }
 
 input{
@@ -137,4 +150,9 @@ h3{
   50% { transform: rotate(0eg); }
   75% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); opacity: 100;}
+}
+
+
+.margin-login-register{
+  margin-top: 1rem;
 }

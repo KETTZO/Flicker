@@ -16,9 +16,9 @@ function Sidebar({ isOpen, toggle }) {
 				<CloseIcon />
 			</Icon>
 			<SidebarMenu>
-				<SidebarLink to='/'>Home</SidebarLink>
+				<SidebarLink to='/flicker'>Home</SidebarLink>
 				<SidebarLink to='/'>Inicio de sesión</SidebarLink>
-				<SidebarLink to='/'>Perfil</SidebarLink>
+				<SidebarLink to='/profile'>Perfil</SidebarLink>
 			
 			</SidebarMenu>
 			{/* <SideBtnWrap>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/pizza-3.jpg';
+
 
 export const HeroContainer = styled.div`
 background: -moz-linear-gradient(45deg, #efb8f2 0%, #32a59f 29%, #efb8f2 66%, #32a59f 100%);
